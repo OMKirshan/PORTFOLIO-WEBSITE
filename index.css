@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 60px;
+    align-items: center;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+ .middle{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+ }
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: balck;
+    color: aliceblue;
+}
+
+
+
+
+.content img {
+    margin-top: 70px;
+    max-width: 70%;
+    height: 350px;
+    object-fit: cover;
+    position: center;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    margin-left: 40px;
+}
+.text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+
+button:hover {
+    background-color: white;
+    color: black;
+}
